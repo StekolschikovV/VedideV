@@ -4,8 +4,17 @@ import callApi from '../../util/apiCaller';
 export const ADD_POST = 'ADD_POST';
 export const ADD_POSTS = 'ADD_POSTS';
 export const DELETE_POST = 'DELETE_POST';
+export const ADD_COMMENT = 'ADD_COMMENT';
+
 
 // Export Actions
+// export function addComment(comment) {
+//   return {
+//     type: ADD_COMMENT,
+//     comment,
+//   };
+// }
+
 export function addPost(post) {
   return {
     type: ADD_POST,

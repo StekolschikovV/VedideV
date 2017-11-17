@@ -1,0 +1,21 @@
+
+.addCommentForm {
+  background: red !important;
+}
+#Comments {
+  padding: 50px 0;
+  display: none;
+}
+form.addCommentForm {
+  display: flex;
+
+  display: none !important;
+}
+.formName{
+  min-width: 100%;
+
+}
+#Comments .formComment{
+  width: 100%;
+}
+#Comments .formSubmit{}
