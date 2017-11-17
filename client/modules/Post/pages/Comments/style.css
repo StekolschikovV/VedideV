@@ -1,21 +1,49 @@
-
+.title{
+  padding: 15px 0;
+}
 .addCommentForm {
-  background: red !important;
-}
-#Comments {
-  padding: 50px 0;
-  display: none;
-}
-form.addCommentForm {
   display: flex;
-
-  display: none !important;
+  flex-direction: column;
 }
 .formName{
-  min-width: 100%;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: -1px;
+}
+.formComment{
+  width: 100%;
+  padding: 10px;;
+}
+.formSubmit{
+  color: #FFF;
+  background: #03A9F4;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 1000px;
+  width: 150px;
+  border: 0;
+  margin-left: auto;
+  margin-top: 10px;
+  outline: none !important;
+  cursor: pointer;
+}
+.comments{
+  list-style: none;
+  padding: 0;
+  margin: 0;
 
 }
-#Comments .formComment{
-  width: 100%;
+.comment{
+  margin-bottom: 10px;
+  background: #eeeeee;
+
 }
-#Comments .formSubmit{}
+.commentDate{
+  padding: 10px;
+}
+.commentName{
+  padding: 10px;
+}
+.commentComment{
+  padding: 10px;
+}

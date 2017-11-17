@@ -53,6 +53,7 @@ export function addPost(req, res) {
  * @returns void
  */
 export function getPost(req, res) {
+
   Post.findOne({ cuid: req.params.cuid }).exec((err, post) => {
     if (err) {
       res.status(500).send(err);
